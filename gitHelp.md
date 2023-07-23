@@ -85,7 +85,7 @@ $ git commit -am "gitHelpAdd" (备注)
 git branch
 ```
 
-![image-20230723124925713](typroaImg\image-20230723124925713.png)
+![image-20230723124925713](typroaImg/image-20230723124925713.png)
 
 8.将本地文件push到远程仓库
 
@@ -93,6 +93,12 @@ git branch
 git push origin master
 ```
 
-![image-20230723125000436](typroaImg\image-20230723125000436.png)
+![image-20230723125000436](typroaImg/image-20230723125000436.png)
 
 ## 3.将github项目换为最新的
+
+1.修改git config --global init.defaultBranch main   *#git在2.28.0上，重新设置git默认分支为main*
+
+2.提交
+
+3.在GitHub上改默认为master
